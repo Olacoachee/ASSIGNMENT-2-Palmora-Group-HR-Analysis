@@ -107,8 +107,19 @@ Then I used the IF formula to assign numeric value for the first cell and then u
 
 In order to examine the salary structure of the company and any gender pay gaps by region and department within it in Excel, I followed the below steps:
 
+**Set up Pivot Table**
 
+- Drag Gender to Rows area.
 
+ - Below the Gender in the Row area I Drag Region and Department.
+
+- Drag Salary to the Values.
+
+  - For the aggregation, I set it to average (default: Sum).
+
+This displayed the average salary by gender, department and region.
+
+**Visualization:** To make the data more presentable, I visualized the data using a clustered bar chart and there is no significant gender salary gap in respect to region.
 
 
 
