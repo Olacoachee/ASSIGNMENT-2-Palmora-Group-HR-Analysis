@@ -62,6 +62,9 @@ First thing that I did was to launched my Microsoft excel after which the Palmor
 
 **Create a Mapping Table:** I created a separate table in a new sheet that lists each location and its corresponding region as show below. 
 
+<img width="219" alt="LOOKUP" src="https://github.com/user-attachments/assets/1a45ee2d-7eb3-47b0-bcff-53d3ef843003" />
+
+**VLOOKUP Formula:** I used the following VLOOKUP formula in Region column to created value for the employee in the first row based on his/her location and flash fill was applied to generate regions for the rest cells. ```=VLOOKUP(E42,'LookUP Region'!$A$1:$B$4,2,FALSE)```
 
 
 
