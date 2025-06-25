@@ -121,6 +121,16 @@ This displayed the average salary by gender, department and region.
 
 **Visualization:** To make the data more presentable, I visualized the data using a clustered bar chart and there is no significant gender salary gap in respect to region.
 
+![Picture3b](https://github.com/user-attachments/assets/c096e7f8-349a-4735-9155-7442317cd313)
+
+
+# Question 4
+*A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
+
+
+
+
+
 
 
 
