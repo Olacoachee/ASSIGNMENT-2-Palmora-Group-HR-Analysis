@@ -75,6 +75,10 @@ First thing that I did was to launched my Microsoft excel after which the Palmor
 
 **Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart.
 
+![Picture1](https://github.com/user-attachments/assets/7d1ab374-1dbd-4dda-8ebd-3b2397e88570)
+
+# Question 2
+*Show insights on ratings based on gender*
 
 
 
