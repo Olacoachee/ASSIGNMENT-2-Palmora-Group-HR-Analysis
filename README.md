@@ -64,8 +64,16 @@ First thing that I did was to launched my Microsoft excel after which the Palmor
 
 <img width="219" alt="LOOKUP" src="https://github.com/user-attachments/assets/1a45ee2d-7eb3-47b0-bcff-53d3ef843003" />
 
-**VLOOKUP Formula:** I used the following VLOOKUP formula in Region column to created value for the employee in the first row based on his/her location and flash fill was applied to generate regions for the rest cells. ```=VLOOKUP(E42,'LookUP Region'!$A$1:$B$4,2,FALSE)```
+**VLOOKUP Formula:** I used the following VLOOKUP formula in Region column to created value for the employee in the first row based on his/her location and flash fill was applied to generate regions for the rest cells. ```=VLOOKUP(E42,'LookUP Region'!$A$1:$B$4,2,FALSE)``` 
 
+**Create a Pivot Table:** A pivot table was created in a separate sheet by selecting the entire dataset then go to insert and click on pivot table to place in a new worksheet.
+
+**Build the Pivot Table** 
+1. Drag Gender to the Values area. Ensure it is set to "Count" (default).
+2. Drag Region to the Rows area.
+3. Drag Department below Region in the Rows area.
+
+**Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart.
 
 
 
