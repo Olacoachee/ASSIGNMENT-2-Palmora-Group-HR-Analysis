@@ -52,8 +52,36 @@ V.   **Selection of Department Filter drop-down:** The department filter drop-do
 # Pointers from Mr Gamma
 In this stage, Exploratory data analysis (EDA) was carried out by examined the datasets in order to provide answers to all the pointers.
 ## Data Analysis
-This is where carried out some basic lines of code/queries used during the analysis and visualization of data.
-1. *What is the gender distribution in the organization? Distil to regions and departments*
+This is where I carried out some basic lines of code/queries during the analysis and visualization of data.
+# Question 1
+*What is the gender distribution in the organization? Distil to regions and departments*
+
+First thing that I did was to launched my Microsoft excel after which the Palmoria Group HR Analysis Dataset was imported. To attempt question 1, analyzing the gender distribution in the organization in respect to regions and departments using excel.  The following steps were followed:
+
+**Add New Column:** Since there is no column in the dataset with Region, there is need to create a new column (Region). To generate regions for each location in excel, I used a mapping table and excel function LOOKUP.
+
+**Create a Mapping Table:** I created a separate table in a new sheet that lists each location and its corresponding region as show below. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
