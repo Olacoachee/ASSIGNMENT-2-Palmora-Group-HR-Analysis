@@ -80,14 +80,32 @@ First thing that I did was to launched my Microsoft excel after which the Palmor
 # Question 2
 *Show insights on ratings based on gender*
 
+To analyze rating based on gender in excel, there is a need for numeric rating therefore new column was created named “Rating Numeric” 
+
+**Create New Column:**  To create a numeric scale for ratings based on the qualitative descriptions (Very Poor, Poor, Average, Good, Very Good), I assigned values as follows:
+1. Very Poor: 1
+2. Poor: 2
+3. Average: 3
+4. Good: 4
+5. Very Good: 5
+
+Then I used the IF formula to assign numeric value for the first cell and then used flash fill to generate the rest column cells  based on the qualitative descriptions in the Rating column. ```=IF(G464="VeryPoor",1,IF(G464="Poor",2,IF(G464="Average",3,IF(G464="Good",4,IF(G464="Very Good",5,"")))))```
+
+**Create a Pivot Table:** A pivot table was created in a separate sheet by selecting the entire dataset then go to insert and click on pivot table to place in a new worksheet.
+
+**Build the Pivot Table** 
+1. Drag Gender to the row area. 
+2. Drag Rating Numeric to the value area. Ensure it is set to "average" (default).
+
+**Visualization:** To make the data more presentable, I visualized the data using a clustered column chart and the chart show valuable insights as avearge employee has a 3/5 rating.
+
+![Picture2B](https://github.com/user-attachments/assets/241d9e81-c160-4e93-bd11-5c768f4d1583)
 
 
+# Question 3
+*Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management*
 
-
-
-
-
-
+In order to examine the salary structure of the company and any gender pay gaps by region and department within it in Excel, I followed the below steps:
 
 
 
