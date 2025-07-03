@@ -115,14 +115,16 @@ This displayed the average salary by region and department.
 
 <img width="367" alt="ASS3B" src="https://github.com/user-attachments/assets/61eb422c-72b5-4dd2-a92d-249e2c02db02" />
 
-
-
 # Question 4
 *A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
 
+**4A ADoes Palmoria meet this requirement?**
 
+To determine whether Palmoria meets the recent regulation requiring a minimum salary of $90,000, follow these steps in power BI:
 
+**Add New Column:** Since there is no column in the dataset with Compliance, there is need to create a new column (compliance). To show if the salary of each employee is up to the recent minimum $90,000 regulation requirement for manufactoring companies, using add conditional column.
 
+<img width="669" alt="Compliance conditional column" src="https://github.com/user-attachments/assets/c3c9383b-f517-4104-a24a-895c16df66d0" />
 
 
 
