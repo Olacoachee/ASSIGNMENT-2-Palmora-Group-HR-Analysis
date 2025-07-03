@@ -18,54 +18,35 @@ Data (Palmoria Group HR Analysis.CSV) [DOWNLOAD HERE](https://canvas.instructure
   ## Gender Column
 There were two gender (Male and Female) in organization as indicated in the dataset by some employees, while others refused to disclose their gender. As a result a generic gender status “Other” was assigned. To fill this 43 empty cells in the gender column with “Other” using power BI using a Conditional Column, follow these step-by-step instructions using Power Query Editor.
 **Step-by-Step in Power BI**
-**Loa of data file:** File was first load into the power BI after which 
+
+**Loa of data file:** File was first load into the power BI after which,
+
 **Open Power Query Editor:** In Power BI Desktop, click on Home > Transform data
+
 **Select Table:** In the Power Query window, I selected the table that contains the Gender column.
+
 **Add a Conditional Column:** By go to the top ribbon:I added a new Column > Conditional Column
+
 **Configure the Conditional Column:** The conditional column was configured as show the image below.
+<img width="688" alt="gender conditional column" src="https://github.com/user-attachments/assets/9c98af93-3d89-44ed-9ea3-f9a053caeaf3" />
 
-
-
-
-
-
-
-
-
-
-
-### Using Find and Replace
-1. The gender column was selected by highlighting the entire column containing employee’s gender data.
-2. Follow by pressing ctrl + H (windows) to opened the find and replace dialog.
-3. The find what field was left empty since my focus is on empty cells.
-4. While in the replace with field, I entered “Other”
-5. Then clicked on replace all to replace the empty cells in the highlighted column with “Other”
 ## Salary Column
 As part of the requirements, some of the employees were with no salary which may be due to them leaving the organization prior to the analysis. Therefore, it is important those employees are taking out to promote data robustness and efficiency. To remove those employees without salary in excel, the follow steps were taken:
 ### Using Filter
 a.  **Select the Data Range:** The data was selected including the column headers.
 
-b.  **Filter Application:** Ctrl + shift + L was pressed together to add filter drop-downs to each column header. 
+b.  **Filter Application:** Filter drop-downs was clicked to the salary column header. 
 
-c.   **Filter of Salary Column:**  Filter drop-downs on the salary column was clicked to bring out filter by values and the blank values (43) was selected and then enter OK
-
-d.   **Select and Delete of Dataset:** The entire dataset was selected without the dataset headers and deleted by right click and select delete entire row.
-
-e.   **Selection of Salary Filter drop-down:** The salary filter drop-down was click and the visible filter values after filtering was chose and press OK and the auto-filter        was off. 
+c.   **Filter of Salary Column:**  Filter drop-downs on the salary column was clicked to bring out filter by values and the blank (null) values (43) was selected and then enter OK.
 
 ## Department Column
-Some departments are indicated as “NULL” . To remove those employees with Null as department in excel, the follow steps were taken:
+Some departments are indicated as “NULL” . To remove those employees with Null as department in power BI, the follow steps were taken:
 ### Using Filter 
 I.  **Select the Data Range:** The data was selected including the column headers.
 
-II.  **Filter Application:** Ctrl + shift + L was pressed together to add filter drop-downs to each column header. 
+II.  **Filter Application:** Filter drop-downs was selected to the department column header. 
 
-III.   **Filter of Department Column:**  Filter drop-down on the department column was clicked to bring out filter by values and the NULL values (26) was selected and then enter OK
-
-IV.   **Select and Delete of Dataset:** The entire dataset was selected without the dataset headers and deleted by right click and select delete entire row.
-
-V.   **Selection of Department Filter drop-down:** The department filter drop-down was click and the visible filter values after filtering was chose and press OK and the auto-filter was off. 
-
+III.   **Filter of Department Column:**  Filter drop-down on the department column was clicked to bring out filter by values and the NULL values (26) was selected and then enter OK. 
 # Pointers from Mr Gamma
 In this stage, Exploratory data analysis (EDA) was carried out by examined the datasets in order to provide answers to all the pointers.
 ## Data Analysis
