@@ -59,16 +59,13 @@ First thing that I did was to launched my power BI after which the Palmoria Grou
 **Add New Column:** Since there is no column in the dataset with Region, there is need to create a new column (Region). To generate regions for each location, I used a  add conditional column.
 <img width="683" alt="Region conditional column" src="https://github.com/user-attachments/assets/df567902-3505-4422-b0b1-9f7fa9aa7ebb" />
 
-
-
-**Build the Pivot Table** 
-1. Drag Gender to the Values area. Ensure it is set to "Count" (default).
-2. Drag Region to the Rows area.
-3. Drag Department below Region in the Rows area.
+**Build the visual** 
+1. Drag Gender to the X axis area. Ensure it is set to "Count" (default).
+2. Drag Region to the legend area.
+3. Drag Department to Y axis area.
 
 **Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart.
 
-![Picture1](https://github.com/user-attachments/assets/7d1ab374-1dbd-4dda-8ebd-3b2397e88570)
 
 # Question 2
 *Show insights on ratings based on gender*
