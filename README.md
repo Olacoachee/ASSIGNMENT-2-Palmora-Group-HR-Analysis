@@ -164,7 +164,9 @@ This displayed the salary distribution by salary band and region.
 Mr Gamma thought to himself that since you were already working on the employee data, you could help out with allocating the annual bonus pay to employees based on the performance rating. He handed you another data set that contains rules for making bonus payments and asked you to:
 ## Question 5
 ● Calculate the amount to be paid as a bonus to individual employees
+
 ● Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
+
 ● Total amount to be paid out per region and company-wide
 
 
