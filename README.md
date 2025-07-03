@@ -28,6 +28,7 @@ There were two gender (Male and Female) in organization as indicated in the data
 **Add a Conditional Column:** By go to the top ribbon:I added a new Column > Conditional Column
 
 **Configure the Conditional Column:** The conditional column was configured as show the image below.
+
 <img width="688" alt="gender conditional column" src="https://github.com/user-attachments/assets/9c98af93-3d89-44ed-9ea3-f9a053caeaf3" />
 
 ## Salary Column
@@ -57,6 +58,7 @@ This is where I carried out some basic lines of code/queries during the analysis
 First thing that I did was to launched my power BI after which the Palmoria Group HR Analysis Dataset was imported. To attempt question 1, analyzing the gender distribution in the organization in respect to region and department.  The following steps were followed:
 
 **Add New Column:** Since there is no column in the dataset with Region, there is need to create a new column (Region). To generate regions for each location, I used a  add conditional column.
+
 <img width="683" alt="Region conditional column" src="https://github.com/user-attachments/assets/df567902-3505-4422-b0b1-9f7fa9aa7ebb" />
 
 **Build the visual** 
@@ -64,7 +66,8 @@ First thing that I did was to launched my power BI after which the Palmoria Grou
 2. Drag Region to the legend area.
 3. Drag Department to Y axis area.
 
-**Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart.</br>
+**Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart.
+
 <img width="364" alt="ASS1" src="https://github.com/user-attachments/assets/c72de8ef-dd4b-44ae-b3e1-79e1e435fb76" />
 
 # Question 2
