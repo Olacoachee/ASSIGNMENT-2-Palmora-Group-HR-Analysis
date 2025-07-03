@@ -65,7 +65,7 @@ First thing that I did was to launched my power BI after which the Palmoria Grou
 3. Drag Department to Y axis area.
 
 **Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart.
-
+<img width="364" alt="ASS1" src="https://github.com/user-attachments/assets/c72de8ef-dd4b-44ae-b3e1-79e1e435fb76" />
 
 # Question 2
 *Show insights on ratings based on gender*
