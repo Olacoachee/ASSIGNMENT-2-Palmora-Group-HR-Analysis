@@ -77,34 +77,46 @@ To analyze rating based on gender;
 
 **Build the visual** 
 1. Drag Name to the X axis area. Ensure it is set to "Count" (default).
-2. Drag Legend to the legend area.
+2. Drag Gender to the legend area.
 3. Drag Rating to Y axis area.
 
 **Visualization:** To make the data more presentable, I visualized the data using a clustered bar chart as show below.
 
 <img width="353" alt="ASS2" src="https://github.com/user-attachments/assets/2732145a-78eb-47da-ab74-2298238148f9" />
 
-
-# Question 3
+# Question 3A
 *Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management*
 
-In order to examine the salary structure of the company and any gender pay gaps by region and department within it in Excel, I followed the below steps:
+In order to examine the salary structure of the company and any gender pay gaps by region and department within it, I followed the below steps:
 
-**Set up Pivot Table**
+**Build the visual** 
+1. Drag Gender to the X axis area. 
+2. Drag Salary to Y axis area. For the aggregation, I set it to average (default: Sum).
 
-- Drag Gender to Rows area.
+This displayed the average salary by gender.
 
- - Below the Gender in the Row area I Drag Region and Department.
+**Visualization:** To make the data more presentable, I visualized the data using a clustered Column chart and there is no significant salary gap in respect to genders.
 
-- Drag Salary to the Values.
+<img width="355" alt="ASS3A" src="https://github.com/user-attachments/assets/eabdfce1-bf54-42ef-a621-21a516de4e38" />
 
-  - For the aggregation, I set it to average (default: Sum).
+# Question 3B
+*Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management*
 
-This displayed the average salary by gender, department and region.
+In order to examine the salary structure of the company and any gender pay gaps by region and department within it, I followed the below steps:
 
-**Visualization:** To make the data more presentable, I visualized the data using a clustered bar chart and there is no significant gender salary gap in respect to region.
+**Build the visual** 
+1. Drag Salary to the X axis area. Ensure it is set to "average" (default).
+2. Drag Region to the legend area.
+3. Drag Department to Y axis area.
 
-![Picture3b](https://github.com/user-attachments/assets/c096e7f8-349a-4735-9155-7442317cd313)
+This displayed the average salary by region and department.
+
+**Visualization:** To make the data more presentable, I visualized the data using a stacked bar chart and there is no significant salary gap in respect to Department and Regions.
+
+<img width="367" alt="ASS3B" src="https://github.com/user-attachments/assets/61eb422c-72b5-4dd2-a92d-249e2c02db02" />
+
+
+
 
 
 # Question 4
