@@ -15,8 +15,25 @@ Data (Palmoria Group HR Analysis.CSV) [DOWNLOAD HERE](https://canvas.instructure
   - for data analysis
   - For data visualization
  # Data Preparation and Cleaning
- ## Gender Column
-There were two gender (Male and Female) in organization as indicated in the dataset by some employees, while others refused to disclose their gender. As a result a generic gender status “Other” was assigned . To fill this 43 empty cells in the gender column with “Other” in excel “Find and Replace” was used to find and replaced the empty cells as follow:
+  ## Gender Column
+There were two gender (Male and Female) in organization as indicated in the dataset by some employees, while others refused to disclose their gender. As a result a generic gender status “Other” was assigned. To fill this 43 empty cells in the gender column with “Other” using power BI using a Conditional Column, follow these step-by-step instructions using Power Query Editor.
+**Step-by-Step in Power BI**
+**Loa of data file:** File was first load into the power BI after which 
+**Open Power Query Editor:** In Power BI Desktop, click on Home > Transform data
+**Select Table:** In the Power Query window, I selected the table that contains the Gender column.
+**Add a Conditional Column:** By go to the top ribbon:I added a new Column > Conditional Column
+**Configure the Conditional Column:** The conditional column was configured as show the image below.
+
+
+
+
+
+
+
+
+
+
+
 ### Using Find and Replace
 1. The gender column was selected by highlighting the entire column containing employee’s gender data.
 2. Follow by pressing ctrl + H (windows) to opened the find and replace dialog.
