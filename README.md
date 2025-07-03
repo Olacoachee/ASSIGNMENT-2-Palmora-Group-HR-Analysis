@@ -149,12 +149,23 @@ To group employees by salary bands (e.g., $10,000–$20,000), I create a new gro
 
 <img width="559" alt="Salary Band column" src="https://github.com/user-attachments/assets/ffdb9656-1bc7-489f-a2be-46ba3f45d286" />
 
+**Build the visual** 
+1. Drag Salary Band to the X axis area.
+2. Drag Region to the legend area.
+3. Drag Name to Y axis area. Ensure it is set to "count" (default).
 
+This displayed the salary distribution by salary band and region.
 
+**Visualization:** To make the data more presentable, I visualized the data using a stacked column chart and this shows the number of employees across salary band and Regions.
 
+<img width="390" alt="ASS4B C" src="https://github.com/user-attachments/assets/49b5f83a-9aff-4e80-b235-e3fee5e38673" />
 
-
-
+# Case Questions
+Mr Gamma thought to himself that since you were already working on the employee data, you could help out with allocating the annual bonus pay to employees based on the performance rating. He handed you another data set that contains rules for making bonus payments and asked you to:
+## Question 5
+● Calculate the amount to be paid as a bonus to individual employees
+● Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
+● Total amount to be paid out per region and company-wide
 
 
 
