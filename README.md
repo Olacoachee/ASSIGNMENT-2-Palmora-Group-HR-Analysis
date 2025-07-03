@@ -8,7 +8,7 @@ This is to officially welcome you to the Palmoria Group Analysis Portfolio. This
 ## Data Source
 Data (Palmoria Group HR Analysis.CSV) [DOWNLOAD HERE](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files) used in this analysis was shared and gotten through the SML channel from the DSA cordinators for the DSA data analysis program.
 ## Tools Used
-- Microsoft Excel [DOWNLOAD HERE](https://www.microsoft.com/en-us/microsoft-365/excel)
+- Microsoft Power BI [DOWNLOAD HERE](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
   - For data cleaning
   - For transformation
   - For data query
