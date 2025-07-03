@@ -147,8 +147,7 @@ To analyze and visualize pay distribution by $10,000 bands in Power BI, includin
 **Create a Salary Band Column**
 To group employees by salary bands (e.g., $10,000–$20,000), I create a new gropu in Power BI by right click on Salary and then new group renamed to (Salary Band) as show in the picture below.
 
-
-
+<img width="559" alt="Salary Band column" src="https://github.com/user-attachments/assets/ffdb9656-1bc7-489f-a2be-46ba3f45d286" />
 
 
 
