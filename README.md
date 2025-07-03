@@ -117,8 +117,6 @@ This displayed the average salary by region and department.
 
 
 
-
-
 # Question 4
 *A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
 
