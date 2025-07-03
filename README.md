@@ -118,7 +118,7 @@ This displayed the average salary by region and department.
 # Question 4
 *A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
 
-**4A Does Palmoria meet this requirement?**
+**4A** Does Palmoria meet this requirement?
 
 To determine whether Palmoria meets the recent regulation requiring a minimum salary of $90,000, follow these steps in power BI:
 
@@ -139,8 +139,26 @@ This displayed the percentage of employees that meet the requirement (Complaint 
 # Question 4
 *A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
 
-**4B Show the pay distribution of employees grouped by a band of $10,000. For example:
-How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000,etc.? Also visualize this by regions.**
+**4B** Show the pay distribution of employees grouped by a band of $10,000. For example:
+How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000,etc.? Also visualize this by regions.
+
+To analyze and visualize pay distribution by $10,000 bands in Power BI, including breakdown by regions.
+
+**Create a Salary Band Column**
+To group employees by salary bands (e.g., $10,000–$20,000), I create a new gropu in Power BI by right click on Salary and then new group renamed to (Salary Band) as show in the picture below.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
