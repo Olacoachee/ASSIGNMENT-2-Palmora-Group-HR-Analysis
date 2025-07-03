@@ -158,7 +158,7 @@ This displayed the salary distribution by salary band and region.
 
 **Visualization:** To make the data more presentable, I visualized the data using a stacked column chart and this shows the number of employees across salary band and Regions.
 
-
+<img width="318" alt="ASS4A" src="https://github.com/user-attachments/assets/05a12636-053d-444d-bad5-cfe8c4d979ae" />
 
 # Case Questions
 Mr Gamma thought to himself that since you were already working on the employee data, you could help out with allocating the annual bonus pay to employees based on the performance rating. He handed you another data set that contains rules for making bonus payments and asked you to:
