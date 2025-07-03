@@ -118,7 +118,7 @@ This displayed the average salary by region and department.
 # Question 4
 *A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
 
-**4A ADoes Palmoria meet this requirement?**
+**4A Does Palmoria meet this requirement?**
 
 To determine whether Palmoria meets the recent regulation requiring a minimum salary of $90,000, follow these steps in power BI:
 
@@ -126,12 +126,21 @@ To determine whether Palmoria meets the recent regulation requiring a minimum sa
 
 <img width="669" alt="Compliance conditional column" src="https://github.com/user-attachments/assets/c3c9383b-f517-4104-a24a-895c16df66d0" />
 
+**Build the visual** 
+1. Drag Name to the value axis area. Ensure it is set to "count" (default).
+2. Drag Compliance to the legend area.
 
+This displayed the percentage of employees that meet the requirement (Complaint and Non Compliant).
 
+**Visualization:** To make the data more presentable, I visualized the data using a pie chart.
 
+<img width="318" alt="ASS4A" src="https://github.com/user-attachments/assets/a2d3c76a-3684-4824-8474-815d471894e3" />
 
+# Question 4
+*A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000*
 
-
+**4B Show the pay distribution of employees grouped by a band of $10,000. For example:
+How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000,etc.? Also visualize this by regions.**
 
 
 
