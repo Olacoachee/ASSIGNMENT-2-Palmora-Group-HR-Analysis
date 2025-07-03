@@ -57,7 +57,7 @@ This is where I carried out some basic lines of code/queries during the analysis
 First thing that I did was to launched my power BI after which the Palmoria Group HR Analysis Dataset was imported. To attempt question 1, analyzing the gender distribution in the organization in respect to region and department.  The following steps were followed:
 
 **Add New Column:** Since there is no column in the dataset with Region, there is need to create a new column (Region). To generate regions for each location, I used a  add conditional column.
-
+<img width="683" alt="Region conditional column" src="https://github.com/user-attachments/assets/df567902-3505-4422-b0b1-9f7fa9aa7ebb" />
 
 
 
