@@ -97,9 +97,7 @@ This displayed the average salary by gender.
 
 **Visualization:** To make the data more presentable, I visualized the data using a clustered Column chart and there is no significant salary gap in respect to genders.
 
-
-
-
+<img width="274" alt="ASSI3A" src="https://github.com/user-attachments/assets/d3b21ea5-5ee5-4dbb-b9d1-a227c8ec4bae" />
 
 # Question 3B
 *Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management*
