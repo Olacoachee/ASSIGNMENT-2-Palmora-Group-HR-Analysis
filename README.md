@@ -54,17 +54,12 @@ This is where I carried out some basic lines of code/queries during the analysis
 # Question 1
 *What is the gender distribution in the organization? Distil to regions and departments*
 
-First thing that I did was to launched my Microsoft excel after which the Palmoria Group HR Analysis Dataset was imported. To attempt question 1, analyzing the gender distribution in the organization in respect to regions and departments using excel.  The following steps were followed:
+First thing that I did was to launched my power BI after which the Palmoria Group HR Analysis Dataset was imported. To attempt question 1, analyzing the gender distribution in the organization in respect to region and department.  The following steps were followed:
 
-**Add New Column:** Since there is no column in the dataset with Region, there is need to create a new column (Region). To generate regions for each location in excel, I used a mapping table and excel function LOOKUP.
+**Add New Column:** Since there is no column in the dataset with Region, there is need to create a new column (Region). To generate regions for each location, I used a  add conditional column.
 
-**Create a Mapping Table:** I created a separate table in a new sheet that lists each location and its corresponding region as show below. 
 
-<img width="219" alt="LOOKUP" src="https://github.com/user-attachments/assets/1a45ee2d-7eb3-47b0-bcff-53d3ef843003" />
 
-**VLOOKUP Formula:** I used the following VLOOKUP formula in Region column to created value for the employee in the first row based on his/her location and flash fill was applied to generate regions for the rest cells. ```=VLOOKUP(E42,'LookUP Region'!$A$1:$B$4,2,FALSE)``` 
-
-**Create a Pivot Table:** A pivot table was created in a separate sheet by selecting the entire dataset then go to insert and click on pivot table to place in a new worksheet.
 
 **Build the Pivot Table** 
 1. Drag Gender to the Values area. Ensure it is set to "Count" (default).
