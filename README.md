@@ -169,8 +169,42 @@ Mr Gamma thought to himself that since you were already working on the employee 
 
 ● Total amount to be paid out per region and company-wide
 
+To perform these calculations in Power BI, follow the steps below. You’ll need two datasets:
+### Total Amount Across Region
+**Build the visual** 
+1. Drag bonum amount to the column area. Ensure it is set to "sum" (default).
+ 
+2. Drag Region to the column area.
 
+3. Drag total amount paid to column area. Ensure it is set to "sum" (default).
 
+**Visualization:** To make the data more presentable, I visualized the data using a Table chart and this shows the sum of bonus amount and sum oftotal amount paid across Regions.
+
+### Total Bonus Amount
+**Build the visual** 
+1. Drag bonum amount to the field area. Ensure it is set to "sum" (default).
+ 
+
+**Visualization:** To make the data more presentable, I visualized the data using a card chart and this shows the sum of total bonus amount paid by the organization.
+
+### Total Amount Company-Wise
+**Build the visual** 
+1. Drag total amount paid to the field area. Ensure it is set to "sum" (default).
+ 
+
+**Visualization:** To make the data more presentable, I visualized the data using a card chart and this shows the sum of total amount paid by the organization.
+
+### Total amount paid to individual employees (salary inclusive of bonus)
+**Build the visual** 
+1. Drag Name to the column area
+  
+2. Drag bonum amount to the column area. Ensure it is set to "sum" (default).
+ 
+3. Drag salary to the column area. Ensure it is set to "sum" (default).
+
+4. Drag total amount paid to column area. Ensure it is set to "sum" (default).
+
+<img width="547" alt="ASS5" src="https://github.com/user-attachments/assets/a23a2dc1-be7c-4722-8c3d-a6e16aa68aa3" />
 
 
 
