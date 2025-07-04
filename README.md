@@ -208,5 +208,3 @@ To perform these calculations in Power BI, follow the steps below. You’ll need
 
 
 
-
-
